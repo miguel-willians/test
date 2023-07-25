@@ -1,0 +1,51 @@
+@media (max-width: 1200px) {
+    
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+       
+    }
+
+    button{
+        border-radius: 50px;
+        width: 370px;
+    }
+
+    .great{
+        margin-bottom: 10px;
+    }
+
+    .circle{
+        width: 150px;
+        height: 150px;
+        margin:15px auto 15px auto;
+    }
+
+    .blue{
+        top: 0;
+        left: 0;
+        height: 350px;
+        width: 450px;
+        margin: 0 auto;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+
+    } 
+
+    .white{
+        position: absolute;
+        height: 450px;
+        width: 450px;
+        top: 50%;
+        left: 0;
+        box-shadow: none;
+    }
+
+    .attribution{
+        top: 125%;
+        left: 55%;
+    }
+}
